@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- All paths use explicit fillColor (no stroke-only paths) for 100% reliable VectorDrawable rendering -->
+    <group
+        android:pivotX="54"
+        android:pivotY="52"
+        android:rotation="-40">
+
+        <!-- Connecting Truss Strut (Horizontal Spine across Solar Wings and Bus) -->
+        <path
+            android:fillColor="#CFD8DC"
+            android:pathData="M18,50.5 L90,50.5 L90,53.5 L18,53.5 Z" />
+
+        <!-- LEFT SOLAR ARRAY WING FRAME -->
+        <path
+            android:fillColor="#E0F7FA"
+            android:pathData="M17,43 L43,43 L43,61 L17,61 Z" />
+        <!-- Left Solar Cells (2 rows x 3 columns of deep cyan photovoltaic cells) -->
+        <path
+            android:fillColor="#00838F"
+            android:pathData="M18.5,44.5 L25.5,44.5 L25.5,51.2 L18.5,51.2 Z" />
+        <path
+            android:fillColor="#00ACC1"
+            android:pathData="M26.8,44.5 L33.8,44.5 L33.8,51.2 L26.8,51.2 Z" />
+        <path
+            android:fillColor="#00838F"
+            android:pathData="M35.0,44.5 L41.5,44.5 L41.5,51.2 L35.0,51.2 Z" />
+        <path
+            android:fillColor="#00ACC1"
+            android:pathData="M18.5,52.8 L25.5,52.8 L25.5,59.5 L18.5,59.5 Z" />
+        <path
+            android:fillColor="#00838F"
+            android:pathData="M26.8,52.8 L33.8,52.8 L33.8,59.5 L26.8,59.5 Z" />
+        <path
+            android:fillColor="#00ACC1"
+            android:pathData="M35.0,52.8 L41.5,52.8 L41.5,59.5 L35.0,59.5 Z" />
+
+        <!-- RIGHT SOLAR ARRAY WING FRAME -->
+        <path
+            android:fillColor="#E0F7FA"
+            android:pathData="M65,43 L91,43 L91,61 L65,61 Z" />
+        <!-- Right Solar Cells (2 rows x 3 columns of deep cyan photovoltaic cells) -->
+        <path
+            android:fillColor="#00ACC1"
+            android:pathData="M66.5,44.5 L73.2,44.5 L73.2,51.2 L66.5,51.2 Z" />
+        <path
+            android:fillColor="#00838F"
+            android:pathData="M74.5,44.5 L81.5,44.5 L81.5,51.2 L74.5,51.2 Z" />
+        <path
+            android:fillColor="#00ACC1"
+            android:pathData="M82.8,44.5 L89.5,44.5 L89.5,51.2 L82.8,51.2 Z" />
+        <path
+            android:fillColor="#00838F"
+            android:pathData="M66.5,52.8 L73.2,52.8 L73.2,59.5 L66.5,59.5 Z" />
+        <path
+            android:fillColor="#00ACC1"
+            android:pathData="M74.5,52.8 L81.5,52.8 L81.5,59.5 L74.5,59.5 Z" />
+        <path
+            android:fillColor="#00838F"
+            android:pathData="M82.8,52.8 L89.5,52.8 L89.5,59.5 L82.8,59.5 Z" />
+
+        <!-- UPPER TELEMETRY ANTENNA MODULE ON TOP OF SATELLITE BUS -->
+        <path
+            android:fillColor="#B0BEC5"
+            android:pathData="M50,36 L58,36 L59,40 L49,40 Z" />
+        <path
+            android:fillColor="#00E5FF"
+            android:pathData="M53,31 L55,31 L55,36 L53,36 Z" />
+
+        <!-- CENTRAL SPACECRAFT BUS (OCTAGONAL METALLIC CYLINDER) -->
+        <path
+            android:fillColor="#ECEFF1"
+            android:pathData="M47,40 L61,40 L63,42.5 L63,61.5 L61,64 L47,64 L45,61.5 L45,42.5 Z" />
+        <!-- Shading side panel on spacecraft bus -->
+        <path
+            android:fillColor="#B0BEC5"
+            android:pathData="M55,40 L61,40 L63,42.5 L63,61.5 L61,64 L55,64 Z" />
+        <!-- Gold Foil Thermal Blanket (MLI) Center Band -->
+        <path
+            android:fillColor="#FFB300"
+            android:pathData="M47,45 L61,45 L61,55 L47,55 Z" />
+        <path
+            android:fillColor="#FFA000"
+            android:pathData="M54,45 L61,45 L61,55 L54,55 Z" />
+        <!-- Central Telemetry Core Lens -->
+        <path
+            android:fillColor="#06152D"
+            android:pathData="M54,50m-3.2,0a3.2,3.2 0,1 1,6.4 0a3.2,3.2 0,1 1,-6.4 0" />
+        <path
+            android:fillColor="#00E5FF"
+            android:pathData="M54,50m-1.8,0a1.8,1.8 0,1 1,3.6 0a1.8,1.8 0,1 1,-3.6 0" />
+
+        <!-- PARABOLIC SATELLITE DISH REFLECTOR BOWL AT BOTTOM OF BUS -->
+        <path
+            android:fillColor="#00E5FF"
+            android:pathData="M44,65 C46,72 62,72 64,65 L61,63.5 C59,68.5 49,68.5 47,63.5 Z" />
+        <!-- Dish Feed Horn Mast & Receiver Tip -->
+        <path
+            android:fillColor="#ECEFF1"
+            android:pathData="M53,67 L55,67 L55,75 L53,75 Z" />
+        <path
+            android:fillColor="#00E676"
+            android:pathData="M54,75.5m-2.8,0a2.8,2.8 0,1 1,5.6 0a2.8,2.8 0,1 1,-5.6 0" />
+
+        <!-- TRANSMITTING RADIO SIGNAL WAVE ARCS (FILLED CRESCENTS) -->
+        <path
+            android:fillColor="#00E676"
+            android:pathData="M46,80 C49,84 59,84 62,80 L60.5,78.5 C58,81.8 50,81.8 47.5,78.5 Z" />
+        <path
+            android:fillColor="#00E5FF"
+            android:pathData="M42,85 C46.5,90.5 61.5,90.5 66,85 L64.5,83.3 C60.5,88 47.5,88 43.5,83.3 Z" />
+    </group>
+</vector>

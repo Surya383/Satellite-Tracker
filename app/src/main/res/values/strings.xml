@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Satellite Tracker</string>
+    <string name="nav_radar">Radar</string>
+    <string name="nav_orbit_3d">3D Orbits</string>
+    <string name="nav_ar_sky">AR Sky</string>
+    <string name="nav_security_alerts">Pass Alerts</string>
+    <string name="notification_channel_name">Overhead Satellite Passes</string>
+    <string name="notification_channel_desc">Smart real-time alerts when tracked satellites rise above your local horizon.</string>
+</resources>

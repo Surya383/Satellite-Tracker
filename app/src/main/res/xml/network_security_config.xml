@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Hardened baseline: block all cleartext HTTP traffic and trust only system root CAs -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+
+    <!-- Explicit domain lock for optional user-triggered CelesTrak NORAD GP TLE sync -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">celestrak.org</domain>
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </domain-config>
+</network-security-config>

@@ -1,0 +1,11 @@
+{
+  "name": "Satellite Tracker",
+  "description": "Privacy-first, battery-efficient real-time orbital satellite tracker with interactive 3D orbital layer simulator, live CameraX + compass AR night-sky overlay, smart pass alerts, and Android Keystore AES-256 security.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
